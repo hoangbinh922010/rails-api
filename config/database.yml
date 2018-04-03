@@ -13,7 +13,7 @@ default: &default
   port: 3306
   database: rails_api
   host: 127.0.0.1
-  socket: /tmp/mysql.sock
+  socket: /var/run/mysqld/mysql.sock
 
 development:
   <<: *default
